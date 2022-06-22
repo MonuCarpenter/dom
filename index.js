@@ -16,3 +16,7 @@ items[3].textContent='WARDHA';
     li[i].textContent = 'MONU';
     li[i].style.fontWeight = 'bold';
  }
+var secondItem = document.querySelector('.list-group-item:nth-child(1)');
+secondItem.style.backgroundColor = 'green';
+var thirdItem = document.querySelector('.list-group-item:nth-child(2)');
+thirdItem.style.visibility = 'hidden';
