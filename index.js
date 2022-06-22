@@ -10,5 +10,9 @@ items[1].textContent='VINOD';
 items[2].textContent='TADAS';
 
 items[3].textContent='WARDHA';
-
-
+ var li = document.getElementsByTagName('li');
+ for( let i=0;i<li.length;i++)
+ {
+    li[i].textContent = 'MONU';
+    li[i].style.fontWeight = 'bold';
+ }
